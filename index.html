@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/icons/rila.svg" />
+    <title>Rila</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+  <body>
+    <div class="contianer">
+<!-- navigation -->
+      <nav>
+        <div class="topnav" id="myTopnav">
+          <a href="#home"
+            ><img src="./assets/icons/rila.svg" alt="Rila"
+          /></a>
+
+          <ul onclick="closeNav()">
+            <li>
+              <a href="#howItWorks">How it works</a>
+            </li>
+            <li><a href="#getInTouch">Contact Us</a></li>
+            <!-- Add href attribute to the link below -->
+            <li><a>Terms</a></li>
+            <!-- Add href attribute to the link below -->
+            <li class="border tac"><a>Download</a></li>
+          </ul>
+          <a class="icon" onclick="myFunction()">
+            <img src="./assets/open.png" alt="" class="open"/>
+            <img src="./assets/icons/close.svg" alt="" class="close"/>
+          </a>
+        </div>
+      </nav>
+      
+      <section id="home">
+        <div class="flex">
+          <div class="topUp">
+            <h3>A Play Ground For Content Creators and Viewers.</h3>
+            <p>
+              Enjoy entertaining contents while getting paid, boost your content
+              creation experience while connecting with fans, buy tickets to
+              your favourite shows.
+            </p>
+            <span class="fFlex aai">
+              <!-- Add google play store download link to the span below -->
+              <span class="fFlex light">
+    
+                <img src="./assets/icons/googlePlay.svg" alt="google play store icon">
+                <h6 class="m5">Download on the Google playstore</h6>
+              </span>
+                <!-- Add google play store download link to the span below -->
+              <span class="fFlex light lMargin">
+                <img src="./assets/icons/apple.svg" alt="apple icon">
+                <h6 class="m5">Download on the App Store</h6>
+              </span>
+            </span>
+          </div>
+          <div class="iphone">
+            <img src="./assets/iPhone.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section id="howItWorks">
+        <div class="center ver">
+          <h4 class=" border">How it works</h4>
+        </div>
+
+        <div class="grid">
+          <div class="row1 item1"><div class="resImg">
+            <img src="./assets/buySlots.png" alt="" class="desktop"> 
+              <!-- <img src="./assets/mBuySlots.png" alt="" class="mobile">  -->
+          </div>
+           </div>
+          <div class="row1 item2"><div class="resImg">
+            <img src="./assets/listMovie.png" alt="" class="desktop"> 
+              <!-- <img src="./assets/mListMovie.png" alt="" class="mobile">  -->
+          </div>
+           </div>
+          <div class="row1 item3">
+          <div class="resImg">
+              <img src="./assets/buyTickets.png" alt="" class="desktop"> 
+              <!-- <img src="./assets/mBuyTickets.png" alt="" class="mobile">  -->
+          </div>
+            </div>
+             <div class="row1 item4">
+          <div class="resImg">
+              <img src="./assets/peers.png" alt="" class="desktop"> 
+              <!-- <img src="./assets/mPeers.png" alt="" class="mobile">  -->
+          </div>
+            </div>
+        </div>
+      </section>
+
+      <section id="getInTouch">
+        <h4 class="center ver">Get intouch with us</h4>
+        <div class="flex fdrr">
+          <div>
+            <p class="m0 fs">Send Us a Mail</p>
+            <form
+              action="https://getform.io/f/b3d956a6-3917-437a-9b86-42ee546b20a8"
+              method="POST"
+            >
+              <div class="fFlex">
+                <div class="text m0">
+                  <input type="text" placeholder="Name" name="Name"/>
+                </div>
+                <div class="text m0">
+                  <input type="email" placeholder="Email" name="Email"/>
+                </div>
+              </div>
+              <div class="text">
+                <input type="number" placeholder="Phone / mobile" name="Phone-Number"/>
+              </div>
+              <div class="description">
+                <input
+                  name="Description"
+                  placeholder="Description"
+                ></input>
+              </div>
+              <div class="btn"><button type="submit">Submit</button></div>
+            </form>
+          </div>
+          <div class="cFlex">
+            <a href="mailto:info@rilastudio.co" class="bac">
+            <div class="fFlex">
+                  <div class="pad"><img src="./assets/icons/mail.svg" alt="envelope icon"></div>
+                  <p class="lMargin">Info@rilastudio.co</p>
+                </div>
+              </a>
+              <a href="tel:+2347062466015" class="bac">
+        <div class="fFlex">
+
+                  <div class="pad"><img src="./assets/icons/phone.svg" alt="telephone icon"></div>
+                  <p class="lMargin">+234 706 246 6015 </p>
+                </div>
+              </a>
+              <a class="bac">
+                  <div class="fFlex">
+                  <div class="pad"><img src="./assets/icons/address.svg" alt="address icon"></div>
+                  <p class="lMargin">No15 reality avenue, sangotedo, lekki, by crown estate. lagos.</p>
+                </div>
+              </a>
+          </div></div>
+      </section>
+
+      <footer>
+        <div class="cFlex ver">
+          <span class="fFlex m5">
+            <img src="./assets/icons/rila.svg" alt="Rila" class="h20"/>
+            <h4 class="m0 padd15">Rila studios</h4>
+          </span>
+          <p class="m0">we are social</p>
+          <span class="fFlex">
+            <a target="_blank" href="https://facebook.com/Rilastudios">
+            <img src="./assets/icons/facebook.svg" alt="facebook icon" class="padd15"></a>
+        <a target="_blank" href="https://instagram.com/rila.studios?igshid=YmMyMTA2M2Y=">   <img src="./assets/icons/instagram.svg" alt="instagram icon" class="padd15"></a>
+      <a target="_blank" href="https://youtube.com/c/rilastudios">      <img src="./assets/icons/youtube.svg" alt="youtube icon" class="padd15"></a>
+          </span>
+          <p class="m0 tr">Copyright &copy 2022. Rila Studios</p>
+        </div>
+      </footer>
+
+      <!-- JAVASCRIPT -->
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>

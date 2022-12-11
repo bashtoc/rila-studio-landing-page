@@ -24,9 +24,31 @@ function check(e) {
   }
 }
 
+
+
+
 $("body").bind("click", function (e) {
   check(e);
 });
 
 closeNav();
 window.addEventListener("scroll", closeNav);
+
+// style current link
+
+// const links = document.querySelectorAll(".links")
+// const sections = document.querySelectorAll("section")
+
+// function changeLinkState() {
+//   let index = sections.length
+//   while (--index && window.scrollY + 50 < sections[index].offsetTop) {
+//     // links[index].classList.add("active")
+//   }
+
+//   links.forEach((link) => link.classList.remove("active"))
+//   changeLinkState()
+
+//   window.addEventListener("scroll", changeLinkState)
+
+
+// }
